@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<staff_table>
+	<!--<staff>
+		<dep_code>IT</dep_code>
+		<dep_job>Java developer</dep_job>
+		<description>Java developer</description>
+	</staff>
+	
+	<staff>
+		<dep_code>FIN</dep_code>
+		<dep_job>Chef</dep_job>
+		<description>Fintech chef</description>
+	</staff>
+	
+	<staff>
+		<dep_code>IT</dep_code>
+		<dep_job>PHP</dep_job>
+		<description>php dev</description>
+	</staff>
+	<staff>
+		<dep_code>IT</dep_code>
+		<dep_job>PHP</dep_job>
+		<description>php dev</description>
+	</staff> -->
+	<staff>
+		<dep_code>test</dep_code>
+		<dep_job>test</dep_job>
+		<description>php dev</description>
+	</staff>
+</staff_table>

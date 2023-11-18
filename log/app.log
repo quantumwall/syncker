@@ -1,0 +1,144 @@
+test
+test
+31.10.2023 13:43:37.766 [main] INFO   o.q.synchronizer.App - test
+31.10.2023 14:58:10.032 [main] INFO   o.q.synchronizer.App - test
+31.10.2023 15:00:22.336 [main] INFO   o.q.synchronizer.App - test
+31.10.2023 15:06:15.187 [main] INFO   o.q.synchronizer.App - test
+31.10.2023 15:06:15.457 [main] INFO   o.q.s.dao.StaffDao - delete StaffKey [depCode=IT, depJob=Java developer]
+31.10.2023 15:07:29.340 [main] INFO   o.q.synchronizer.App - test
+31.10.2023 15:07:29.560 [main] INFO   o.q.s.dao.StaffDao - keys [StaffKey [depCode=test, depJob=test]]
+31.10.2023 15:07:29.570 [main] INFO   o.q.s.dao.StaffDao - delete StaffKey [depCode=IT, depJob=Java developer]
+31.10.2023 15:08:45.770 [main] INFO   o.q.synchronizer.App - test
+31.10.2023 15:08:46.025 [main] INFO   o.q.s.dao.StaffDao - keys [StaffKey [depCode=test, depJob=test]]
+31.10.2023 15:08:46.036 [main] INFO   o.q.s.dao.StaffDao - current key StaffKey [depCode=IT, depJob=Java developer]
+31.10.2023 15:08:46.037 [main] INFO   o.q.s.dao.StaffDao - delete StaffKey [depCode=IT, depJob=Java developer]
+31.10.2023 15:09:52.329 [main] INFO   o.q.synchronizer.App - test
+31.10.2023 15:09:52.581 [main] INFO   o.q.s.dao.StaffDao - keys [StaffKey [depCode=test, depJob=test]]
+31.10.2023 15:09:52.593 [main] INFO   o.q.s.dao.StaffDao - current key StaffKey [depCode=IT, depJob=Java developer]
+31.10.2023 15:09:52.593 [main] INFO   o.q.s.dao.StaffDao - delete StaffKey [depCode=IT, depJob=Java developer]
+31.10.2023 15:09:52.593 [main] INFO   o.q.s.dao.StaffDao - current key StaffKey [depCode=FIN, depJob=Chef]
+31.10.2023 15:09:52.593 [main] INFO   o.q.s.dao.StaffDao - delete StaffKey [depCode=FIN, depJob=Chef]
+31.10.2023 15:09:52.594 [main] INFO   o.q.s.dao.StaffDao - current key StaffKey [depCode=IT, depJob=PHP]
+31.10.2023 15:09:52.594 [main] INFO   o.q.s.dao.StaffDao - delete StaffKey [depCode=IT, depJob=PHP]
+31.10.2023 15:09:52.594 [main] INFO   o.q.s.dao.StaffDao - current key StaffKey [depCode=test, depJob=test]
+31.10.2023 15:59:48.357 [main] INFO   o.q.s.p.XmlParser - parse staff.xml to map
+31.10.2023 15:59:48.371 [main] ERROR  o.q.s.p.XmlParser - Duplicate value for key StaffKey [depCode=IT, depJob=PHP]
+31.10.2023 16:00:47.204 [main] INFO   o.q.s.p.XmlParser - parse staff.xml to map
+31.10.2023 16:00:47.215 [main] INFO   o.q.s.p.XmlParser - parse staff.xml to map complete
+31.10.2023 16:00:47.215 [main] INFO   o.q.s.p.XmlParser - result file parsing: {StaffKey [depCode=IT, depJob=Java developer]=Staff [id=null, depCode=IT, depJob=Java developer, description=Java developer], StaffKey [depCode=FIN, depJob=Chef]=Staff [id=null, depCode=FIN, depJob=Chef, description=Fintech chef], StaffKey [depCode=IT, depJob=PHP]=Staff [id=null, depCode=IT, depJob=PHP, description=php dev]}
+31.10.2023 16:00:47.467 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=IT, depJob=Java developer, description=Java developer]
+31.10.2023 16:00:47.468 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=FIN, depJob=Chef, description=Fintech chef]
+31.10.2023 16:00:47.468 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=IT, depJob=PHP, description=php dev]
+31.10.2023 16:00:47.482 [main] INFO   o.q.s.dao.StaffDao - delete StaffKey [depCode=test, depJob=test]
+31.10.2023 16:28:31.168 [main] INFO   o.q.s.p.XmlParser - parse staff.xml to map
+31.10.2023 16:28:31.179 [main] INFO   o.q.s.p.XmlParser - parse staff.xml to map complete
+31.10.2023 16:28:31.179 [main] INFO   o.q.s.p.XmlParser - result file parsing: {StaffKey [depCode=IT, depJob=Java developer]=Staff [id=null, depCode=IT, depJob=Java developer, description=Java developer], StaffKey [depCode=FIN, depJob=Chef]=Staff [id=null, depCode=FIN, depJob=Chef, description=Fintech chef], StaffKey [depCode=IT, depJob=PHP]=Staff [id=null, depCode=IT, depJob=PHP, description=php dev]}
+31.10.2023 16:28:31.410 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=IT, depJob=Java developer, description=Java developer]
+31.10.2023 16:28:31.410 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=FIN, depJob=Chef, description=Fintech chef]
+31.10.2023 16:28:31.411 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=IT, depJob=PHP, description=php dev]
+31.10.2023 16:29:22.326 [main] INFO   o.q.s.dao.StaffDao - find all staff
+31.10.2023 16:29:22.576 [main] INFO   o.q.s.dao.StaffDao - finded: [Staff [id=null, depCode=IT, depJob=Java developer, description=Java developer], Staff [id=null, depCode=FIN, depJob=Chef, description=Fintech chef], Staff [id=null, depCode=IT, depJob=PHP, description=php dev]]
+31.10.2023 16:29:22.585 [main] INFO   o.q.s.p.XmlParser - write staff from db to test.xml
+31.10.2023 16:29:22.697 [main] INFO   o.q.s.p.XmlParser - write to test.xml complete
+31.10.2023 17:33:55.295 [main] INFO   o.q.s.dao.StaffDao - find all staff
+31.10.2023 17:33:55.534 [main] INFO   o.q.s.dao.StaffDao - finded: [Staff [id=null, depCode=IT, depJob=Java developer, description=Java developer], Staff [id=null, depCode=FIN, depJob=Chef, description=Fintech chef], Staff [id=null, depCode=IT, depJob=PHP, description=php dev]]
+31.10.2023 17:33:55.545 [main] INFO   o.q.s.p.XmlParser - write staff from db to test.xml
+31.10.2023 17:33:55.671 [main] INFO   o.q.s.p.XmlParser - write to test.xml complete
+31.10.2023 17:35:34.257 [main] INFO   o.q.s.dao.StaffDao - find all staff
+31.10.2023 17:35:34.477 [main] INFO   o.q.s.dao.StaffDao - finded: [Staff [id=null, depCode=IT, depJob=Java developer, description=Java developer], Staff [id=null, depCode=FIN, depJob=Chef, description=Fintech chef], Staff [id=null, depCode=IT, depJob=PHP, description=php dev]]
+31.10.2023 17:35:34.485 [main] INFO   o.q.s.p.XmlParser - write staff from db to test.xml
+31.10.2023 17:35:34.599 [main] INFO   o.q.s.p.XmlParser - write to test.xml complete
+31.10.2023 20:05:31.951 [main] INFO   o.q.s.dao.StaffDao - find all staff
+31.10.2023 20:05:32.208 [main] INFO   o.q.s.dao.StaffDao - finded: [Staff [id=null, depCode=IT, depJob=Java developer, description=Java developer], Staff [id=null, depCode=IT, depJob=PHP, description=php dev], Staff [id=null, depCode=FIN, depJob=Chef, description=Fintech chef]]
+31.10.2023 20:05:32.217 [main] INFO   o.q.s.p.XmlParser - write staff from db to test.xml
+31.10.2023 20:05:32.355 [main] INFO   o.q.s.p.XmlParser - write to test.xml complete
+31.10.2023 20:06:45.234 [main] INFO   o.q.s.dao.StaffDao - find all staff
+31.10.2023 20:06:45.469 [main] INFO   o.q.s.dao.StaffDao - finded: [Staff [id=null, depCode=FIN, depJob=Chef, description=Fintech chef], Staff [id=null, depCode=IT, depJob=Java developer, description=Java developer], Staff [id=null, depCode=IT, depJob=PHP, description=php dev]]
+31.10.2023 20:06:45.477 [main] INFO   o.q.s.p.XmlParser - write staff from db to test.xml
+31.10.2023 20:06:45.581 [main] INFO   o.q.s.p.XmlParser - write to test.xml complete
+31.10.2023 20:08:01.096 [main] INFO   o.q.s.dao.StaffDao - find all staff
+31.10.2023 20:08:01.345 [main] INFO   o.q.s.dao.StaffDao - finded: [Staff [id=null, depCode=FIN, depJob=Chef, description=Fintech chef], Staff [id=null, depCode=IT, depJob=Java developer, description=Java developer], Staff [id=null, depCode=IT, depJob=PHP, description=php dev]]
+31.10.2023 20:08:01.355 [main] INFO   o.q.s.p.XmlParser - write staff from db to test.xml
+31.10.2023 20:08:01.460 [main] INFO   o.q.s.p.XmlParser - write to test.xml complete
+01.11.2023 09:56:35.156 [main] INFO   o.q.s.dao.StaffDao - find all staff
+01.11.2023 09:56:35.416 [main] INFO   o.q.s.dao.StaffDao - finded: [Staff [id=null, depCode=IT, depJob=Java developer, description=Backend developer], Staff [id=null, depCode=FIN, depJob=Economist, description=Major economist], Staff [id=null, depCode=IT, depJob=PHP developer, description=Backend php developer], Staff [id=null, depCode=ORG, depJob=Chef, description=Org department chef]]
+01.11.2023 09:56:35.428 [main] INFO   o.q.s.p.XmlParser - write staff from db to test.xml
+01.11.2023 09:56:35.609 [main] INFO   o.q.s.p.XmlParser - write to test.xml complete
+01.11.2023 09:58:39.200 [main] INFO   o.q.synchronizer.App - synchronize database content with test.xml
+01.11.2023 09:58:39.203 [main] INFO   o.q.s.dao.StaffDao - find all staff
+01.11.2023 09:58:39.487 [main] INFO   o.q.s.dao.StaffDao - finded: [Staff [id=null, depCode=ORG, depJob=Chef, description=Org department chef], Staff [id=null, depCode=IT, depJob=PHP developer, description=Backend php developer], Staff [id=null, depCode=IT, depJob=Java developer, description=Backend developer], Staff [id=null, depCode=FIN, depJob=Economist, description=Major economist]]
+01.11.2023 09:58:39.497 [main] INFO   o.q.s.p.XmlParser - write staff from db to test.xml
+01.11.2023 09:58:39.636 [main] INFO   o.q.s.p.XmlParser - write to test.xml complete
+01.11.2023 09:59:26.519 [main] INFO   o.q.synchronizer.App - extract database to test.xml
+01.11.2023 09:59:26.522 [main] INFO   o.q.s.dao.StaffDao - find all staff
+01.11.2023 09:59:26.777 [main] INFO   o.q.s.dao.StaffDao - finded: [Staff [id=null, depCode=ORG, depJob=Chef, description=Org department chef], Staff [id=null, depCode=IT, depJob=PHP developer, description=Backend php developer], Staff [id=null, depCode=IT, depJob=Java developer, description=Backend developer], Staff [id=null, depCode=FIN, depJob=Economist, description=Major economist]]
+01.11.2023 09:59:26.785 [main] INFO   o.q.s.p.XmlParser - write staff from db to test.xml
+01.11.2023 09:59:26.905 [main] INFO   o.q.s.p.XmlParser - write to test.xml complete
+01.11.2023 10:21:10.204 [main] INFO   o.q.synchronizer.App - extract database to test.xml
+01.11.2023 10:21:10.208 [main] INFO   o.q.s.dao.StaffDao - find all staff
+01.11.2023 10:21:10.454 [main] INFO   o.q.s.dao.StaffDao - finded: [Staff [id=null, depCode=FIN, depJob=Economist, description=Major economist], Staff [id=null, depCode=ORG, depJob=Chef, description=Org department chef], Staff [id=null, depCode=IT, depJob=PHP developer, description=Backend php developer], Staff [id=null, depCode=IT, depJob=Java developer, description=Backend developer]]
+01.11.2023 10:21:10.463 [main] INFO   o.q.s.p.XmlParser - write staff from db to test.xml
+01.11.2023 10:21:10.580 [main] INFO   o.q.s.p.XmlParser - write to test.xml complete
+01.11.2023 10:22:05.863 [main] INFO   App - extract database to test.xml
+01.11.2023 10:22:05.866 [main] INFO   o.q.s.dao.StaffDao - find all staff
+01.11.2023 10:22:06.097 [main] INFO   o.q.s.dao.StaffDao - finded: [Staff [id=null, depCode=ORG, depJob=Chef, description=Org department chef], Staff [id=null, depCode=IT, depJob=PHP developer, description=Backend php developer], Staff [id=null, depCode=IT, depJob=Java developer, description=Backend developer], Staff [id=null, depCode=FIN, depJob=Economist, description=Major economist]]
+01.11.2023 10:22:06.104 [main] INFO   o.q.s.p.XmlParser - write staff from db to test.xml
+01.11.2023 10:22:06.209 [main] INFO   o.q.s.p.XmlParser - write to test.xml complete
+01.11.2023 11:05:12.639 [main] INFO   App - extract database to test.xml
+01.11.2023 11:05:12.641 [main] INFO   o.q.s.dao.StaffDao - find all staff
+01.11.2023 11:05:12.861 [main] INFO   o.q.s.dao.StaffDao - finded: [Staff [id=null, depCode=ORG, depJob=Chef, description=Org department chef], Staff [id=null, depCode=IT, depJob=PHP developer, description=Backend php developer], Staff [id=null, depCode=IT, depJob=Java developer, description=Backend developer], Staff [id=null, depCode=FIN, depJob=Economist, description=Major economist]]
+01.11.2023 11:05:12.868 [main] INFO   o.q.s.p.XmlParser - write staff from db to test.xml
+01.11.2023 11:05:12.967 [main] INFO   o.q.s.p.XmlParser - write to test.xml complete
+01.11.2023 11:05:28.127 [main] INFO   App - synchronize database content with test.xml
+01.11.2023 11:05:28.130 [main] INFO   o.q.s.p.XmlParser - parse test.xml to map
+01.11.2023 11:06:08.502 [main] INFO   App - synchronize database content with test.xml
+01.11.2023 11:06:08.505 [main] INFO   o.q.s.p.XmlParser - parse test.xml to map
+01.11.2023 11:06:08.513 [main] INFO   o.q.s.p.XmlParser - node: [staff: null]
+01.11.2023 11:09:52.874 [main] INFO   App - synchronize database content with test.xml
+01.11.2023 11:09:52.877 [main] INFO   o.q.s.p.XmlParser - parse test.xml to map
+01.11.2023 11:09:52.885 [main] INFO   o.q.s.p.XmlParser - staffNode: [staff: null]
+01.11.2023 11:09:52.886 [main] INFO   o.q.s.p.XmlParser - node: [staff: null]
+01.11.2023 11:14:28.469 [main] INFO   App - synchronize database content with test.xml
+01.11.2023 11:14:28.472 [main] INFO   o.q.s.p.XmlParser - parse test.xml to map
+01.11.2023 11:14:28.480 [main] INFO   o.q.s.p.XmlParser - staffNode: [staff: null]
+01.11.2023 11:14:28.481 [main] INFO   o.q.s.p.XmlParser - node: [staff: null]
+01.11.2023 11:16:42.070 [main] INFO   o.q.synchronizer.App - synchronize database content with test.xml
+01.11.2023 11:16:42.073 [main] INFO   o.q.s.p.XmlParser - parse test.xml to map
+01.11.2023 11:16:42.080 [main] INFO   o.q.s.p.XmlParser - staffNode: [staff: null]
+01.11.2023 11:16:42.081 [main] INFO   o.q.s.p.XmlParser - node: [staff: null]
+01.11.2023 11:18:45.178 [main] INFO   o.q.synchronizer.App - synchronize database content with test.xml
+01.11.2023 11:18:45.182 [main] INFO   o.q.s.p.XmlParser - parse test.xml to map
+01.11.2023 11:18:45.191 [main] INFO   o.q.s.p.XmlParser - staffNode: [staff: null]
+01.11.2023 11:18:45.191 [main] INFO   o.q.s.p.XmlParser - node: [staff: null]
+01.11.2023 11:18:45.192 [main] INFO   o.q.s.p.XmlParser - staffNode: [staff: null]
+01.11.2023 11:18:45.193 [main] INFO   o.q.s.p.XmlParser - node: [staff: null]
+01.11.2023 11:18:45.193 [main] INFO   o.q.s.p.XmlParser - staffNode: [staff: null]
+01.11.2023 11:18:45.193 [main] INFO   o.q.s.p.XmlParser - node: [staff: null]
+01.11.2023 11:18:45.193 [main] INFO   o.q.s.p.XmlParser - staffNode: [staff: null]
+01.11.2023 11:18:45.193 [main] INFO   o.q.s.p.XmlParser - node: [staff: null]
+01.11.2023 11:18:45.193 [main] INFO   o.q.s.p.XmlParser - parse test.xml to map complete
+01.11.2023 11:18:45.193 [main] INFO   o.q.s.p.XmlParser - result file parsing: {StaffKey [depCode=ORG, depJob=Chef]=Staff [id=null, depCode=ORG, depJob=Chef, description=Org department chef], StaffKey [depCode=IT, depJob=PHP developer]=Staff [id=null, depCode=IT, depJob=PHP developer, description=Backend php developer], StaffKey [depCode=IT, depJob=Java developer]=Staff [id=null, depCode=IT, depJob=Java developer, description=Backend developer], StaffKey [depCode=FIN, depJob=Economist]=Staff [id=null, depCode=FIN, depJob=Economist, description=Major economist]}
+01.11.2023 11:18:45.471 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=ORG, depJob=Chef, description=Org department chef]
+01.11.2023 11:18:45.472 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=IT, depJob=PHP developer, description=Backend php developer]
+01.11.2023 11:18:45.473 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=IT, depJob=Java developer, description=Backend developer]
+01.11.2023 11:18:45.473 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=FIN, depJob=Economist, description=Major economist]
+01.11.2023 11:22:03.225 [main] INFO   o.q.synchronizer.App - synchronize database content with test.xml
+01.11.2023 11:22:03.228 [main] INFO   o.q.s.p.XmlParser - parse test.xml to map
+01.11.2023 11:22:03.236 [main] INFO   o.q.s.p.XmlParser - staffNode: [staff: null]
+01.11.2023 11:22:03.237 [main] INFO   o.q.s.p.XmlParser - node: [staff: null]
+01.11.2023 11:22:03.238 [main] INFO   o.q.s.p.XmlParser - staffNode: [staff: null]
+01.11.2023 11:22:03.238 [main] INFO   o.q.s.p.XmlParser - node: [staff: null]
+01.11.2023 11:22:03.239 [main] INFO   o.q.s.p.XmlParser - staffNode: [staff: null]
+01.11.2023 11:22:03.239 [main] INFO   o.q.s.p.XmlParser - node: [staff: null]
+01.11.2023 11:22:03.239 [main] INFO   o.q.s.p.XmlParser - staffNode: [staff: null]
+01.11.2023 11:22:03.239 [main] INFO   o.q.s.p.XmlParser - node: [staff: null]
+01.11.2023 11:22:03.239 [main] INFO   o.q.s.p.XmlParser - parse test.xml to map complete
+01.11.2023 11:22:03.239 [main] INFO   o.q.s.p.XmlParser - result file parsing: {StaffKey [depCode=ORG, depJob=Chef]=Staff [id=null, depCode=ORG, depJob=Chef, description=Org department chef], StaffKey [depCode=IT, depJob=PHP developer]=Staff [id=null, depCode=IT, depJob=PHP developer, description=Backend php developer], StaffKey [depCode=IT, depJob=Java developer]=Staff [id=null, depCode=IT, depJob=Java developer, description=Backend developer], StaffKey [depCode=FIN, depJob=Economist]=Staff [id=null, depCode=FIN, depJob=Economist, description=Major economist]}
+01.11.2023 11:22:03.543 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=ORG, depJob=Chef, description=Org department chef]
+01.11.2023 11:22:03.544 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=IT, depJob=PHP developer, description=Backend php developer]
+01.11.2023 11:22:03.544 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=IT, depJob=Java developer, description=Backend developer]
+01.11.2023 11:22:03.544 [main] INFO   o.q.s.dao.StaffDao - insert or update staff: Staff [id=null, depCode=FIN, depJob=Economist, description=Major economist]
+02.11.2023 12:17:14.427 [main] INFO   o.q.synchronizer.App - synchronize database content with test.xml
+02.11.2023 12:17:14.439 [main] INFO   o.q.s.p.XmlParser - parse test.xml to map
+02.11.2023 12:17:14.450 [main] INFO   o.q.s.p.XmlParser - parse test.xml to map complete
+02.11.2023 12:17:14.451 [main] INFO   o.q.s.p.XmlParser - result file parsing: {StaffKey [depCode=ORG, depJob=Chef]=Staff [id=null, depCode=ORG, depJob=Chef, description=Org department chef], StaffKey [depCode=IT, depJob=PHP developer]=Staff [id=null, depCode=IT, depJob=PHP developer, description=Backend php developer], StaffKey [depCode=IT, depJob=Java developer]=Staff [id=null, depCode=IT, depJob=Java developer, description=Backend developer], StaffKey [depCode=FIN, depJob=Economist]=Staff [id=null, depCode=FIN, depJob=Economist, description=Major economist]}

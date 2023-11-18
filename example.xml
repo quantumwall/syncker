@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<staffTable>
+    <staff>
+        <depCode>ORG</depCode>
+        <depJob>Chef</depJob>
+        <description>Org department chef</description>
+    </staff>
+    <staff>
+        <depCode>IT</depCode>
+        <depJob>PHP developer</depJob>
+        <description>Backend php developer</description>
+    </staff>
+</staffTable>
